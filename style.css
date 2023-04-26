@@ -1,6 +1,35 @@
-p{
-    color: brown;
+.home{
+    background-color: rgb(92, 153, 153);
+    border: solid 1px green;
+    display: flex;
+    justify-content: left;
+    object-fit: scale-down;
+    
 }
-#slec-id{
-    background-color: beige;
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 10px;
+}
+.nav-menu>a{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+/*main{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    background-image: url("https://media.revistagq.com/photos/61f797e1f4fbf437fa2c9098/16:9/pass/mWnRMcYbvi2k3fxCrCRto9-1200-80.jpg");
+}*/
+.noti1{
+    display: flex;
 }
